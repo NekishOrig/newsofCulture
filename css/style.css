@@ -1,0 +1,28 @@
+body {
+    font-size: 50px;
+    color: black;
+    background-color: white;
+
+    text-align: center;
+}
+
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+}
+
+.description {
+    background: url(../img/underwater-hotel.jpg) no-repeat;
+    height: 1200px;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.description_p {
+}
