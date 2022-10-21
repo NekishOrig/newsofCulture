@@ -1,28 +1,130 @@
-body {
-    font-size: 50px;
-    color: black;
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    font-size: 30px;
     text-align: center;
 }
 
-ul.hr {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
+header {
+    width: 1720px;
+    margin: 0 auto;
+    height: 250px;
 }
 
-ul.hr li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
+h1 {
+    font-size: 49px;
+    font-family: "Playfair Display", serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: dimgrey;
 }
 
 .description {
     background: url(../img/underwater-hotel.jpg) no-repeat;
-    height: 1200px;
+    height: 600px;
     background-size: cover;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
-.description_p {
+.description>img {
+    margin-top: 50px;
+}
+
+.otel {
+    margin-top: 85px;
+    font-size: 70px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.dubai {
+    margin-top: 175px;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.reviews {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 1720px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abonements {
+    font-family: "Montserra", sans-serif;
+    font-size: 25px;
+}
+
+.orange {
+    color: orange;
+}
+
+.photo>img {
+    width: 600px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid white ;
+    padding-bottom: 70px;
+}
+
+.novosti {
+    color: white;
+    font-size: 49px;
+}
+
+footer {
+    background-color: gray;
+}
+
+.ssilki { 
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 200px;
+    height: 100px;
+
+}
+
+.insta, .twitter {
+    background-color: white;
+    height: 25px;
+    padding: 15px 15px 15px;
+}
+
+.facebook {
+    padding: 15px 22px;
+    background-color: white;
+}
+
+.nav2 {
+    display: flex;
 }
